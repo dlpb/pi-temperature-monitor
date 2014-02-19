@@ -8,4 +8,4 @@ There are three scripts that need to be placed in certain places:
 
 2. make_therm_graph.sh - This needs to run on the machine that you want to use to send emails/make graphs from. This needs access to the output from the above script, as well as acecss to gnuplot
 
-3. mail.sh - Sends the email. needs to run from the same folder as make_therm_graph.sh, and is called automatically by that script. Needs access to sendmail and a mail server.
+3. mail.sh - Sends the email. needs to run from the same folder as make_therm_graph.sh, and is called automatically by that script. Needs access to sendmail and a mail server
